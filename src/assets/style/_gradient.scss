@@ -1,0 +1,15 @@
+@mixin bg-theme-gradient() {
+  background: linear-gradient(60deg, $gradient-color1, $gradient-color2);
+}
+
+@mixin bg-theme-gradient-dark() {
+  background: linear-gradient(60deg, $gradient-dark1, $gradient-dark2);
+}
+
+.bg-theme-gradient {
+  @include bg-theme-gradient();
+}
+
+.bg-theme-gradient-dark {
+  @include bg-theme-gradient-dark();
+}

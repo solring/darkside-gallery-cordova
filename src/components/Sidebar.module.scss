@@ -1,0 +1,49 @@
+@import '../assets/style/configs/variables';
+
+$bottom-padding: 32px;
+
+.sidebar {
+  padding: 60px 24px 24px $bottom-padding;
+
+  height: 100%;
+
+  text-align: left;
+  background-color: #fff;
+
+  // for shadow
+  position: relative;
+  z-index: 1060;
+  box-shadow: 5px 0 10px 2px rgba(0,0,0,0.3);
+
+  @media screen and (max-width: $bs-breakpoint-md) {
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    margin-bottom: -30px;
+    border-radius: 0 0 $bottom-padding $bottom-padding;
+    box-shadow: 0 5px 10px 2px rgba(0,0,0,0.3);
+
+    &:after {
+      position: absolute;
+      left: 45%;
+      bottom: 12px;
+
+      content: "";
+
+      display: block;
+      width: 10%;
+      height: 5px;
+      border-radius: 2px;
+
+      box-shadow: inset 1px 1px 4px 0 gray;
+    }
+  }
+
+  @media screen and (max-width: $bs-breakpoint-sm) {
+    padding-top: 8px;
+  }
+}

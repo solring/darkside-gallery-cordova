@@ -1,0 +1,80 @@
+@import '../assets/style/configs/bootstrap/variables';
+@import '../assets/style/configs/variables';
+@import '../assets/style/gradient';
+
+.navtabs {
+  position: sticky;
+  top:0;
+  z-index: 1050;
+  padding-top: 32px;
+
+  transition: all .25s ease-in-out;
+
+  .item {
+    margin-bottom: 12px;
+  }
+
+  &[data-scroll=true] {
+    padding-top: 16px;
+
+    .item {
+      margin-bottom: 8px;
+    }
+
+    .inner {
+      border-bottom: none;
+    }
+  }
+}
+
+.item {
+  display: inline-block;
+  padding: .2rem 2rem;
+
+  border-radius: 4px;
+
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 24px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all .25s ease-in-out;
+
+  &[data-open=true] {
+    border: none;
+  }
+}
+
+.itemWrap {
+
+  &:after {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: url(../assets/images/triangle.svg);
+
+    transition: height .35s linear;
+
+    height: 0;
+    width: 32px;
+    overflow: hidden;
+  }
+
+  &[data-active=true] {
+    &:after {
+      height: 16px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import './variables';
+
+// export to webpack
+:export {
+  gradientColor1: $gradient-color1;
+  gradientColor2: $gradient-color2;
+  gradientDark1: $gradient-dark1;
+  gradientDark2: $gradient-dark2;
+  bsBPsm: $bs-breakpoint-sm;
+  bsBPmd: $bs-breakpoint-md;
+  bsBPlg: $bs-breakpoint-lg;
+  bsBPxl: $bs-breakpoint-xl;
+  bsBPxxl: $bs-breakpoint-xxl;
+}

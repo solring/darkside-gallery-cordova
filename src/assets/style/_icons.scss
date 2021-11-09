@@ -1,0 +1,35 @@
+//$prefix: "/src/assets/images";
+$prefix: "../images";
+$path-github: "#{$prefix}/github.svg";
+$path-twitter: "#{$prefix}/twitter.svg";
+$path-tumblr: "#{$prefix}/tumblr.svg";
+$path-social: "#{$prefix}/socialmedia.svg";
+
+.icon-github {
+  mask: url($path-github) no-repeat center;
+}
+
+.icon-twitter {
+  mask: url($path-twitter) no-repeat center;
+}
+
+.icon-tumblr {
+  mask: url($path-tumblr) no-repeat center;
+}
+
+.icon {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+
+  &:hover{
+    opacity: 0.5;
+  }
+}
+
+.icon-socialmedia {
+  height: 36px;
+  width: 132px;
+
+  mask: url($path-social) no-repeat center;
+}

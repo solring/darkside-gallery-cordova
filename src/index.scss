@@ -1,0 +1,18 @@
+// Bootstrap
+@import './assets/style/configs/bootstrap/_variables.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './assets/style/configs/bootstrap/_overrides.scss';
+
+// Global settings
+@import './assets/style/configs/_fonts.scss';
+@import './assets/style/configs/_variables.scss';
+@import './assets/style/configs/_base.scss';
+
+@import './assets/style/utils/_mixins.scss';
+
+@import './assets/style/_gradient.scss';
+@import './assets/style/_icons.scss';
+@import './assets/style/_shadow.scss';
+@import './assets/style/_utils.scss';
+
+@import './assets/style/_animate.scss';

@@ -1,0 +1,13 @@
+.btn {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+
+  opacity: 0;
+  transition: opacity .15s ease-out;
+
+  &:hover {
+    opacity: 0.4;
+  }
+}

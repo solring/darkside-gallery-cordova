@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+$title-font-family: 'Marvel', 'Helvetica', sans-serif;
+$content-font-family: 'Playfair Display', 'Times', serif;
+
+.font-title {
+  font-weight: bold;
+  font-family: $title-font-family;
+}

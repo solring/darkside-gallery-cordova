@@ -1,0 +1,24 @@
+.collapse {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 4px 10px 16px;
+}
+
+.content {
+  overflow-y: scroll;
+}

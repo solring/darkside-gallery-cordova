@@ -1,0 +1,27 @@
+@import '../assets/style/configs/bootstrap/variables';
+
+.base {
+  padding: .25rem 1rem;
+
+  border-color: transparent;
+  border-width: 0 2px 0 2px;
+  border-radius: .4rem;
+
+  font-size: 1rem;
+  color: $primary;
+  background-color: none;
+
+  &:hover {
+    color: darken($primary, 20%);
+  }
+
+  &:focus {
+    opacity: 0.7;
+  }
+
+  // override hover effect
+  &:before, &:after {
+    background: $primary;
+    height: 1px;
+  }
+}

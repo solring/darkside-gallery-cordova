@@ -1,0 +1,1775 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`General tests: normal layout 1`] = `
+<div
+  class="row g-0 disable-select"
+>
+  <div
+    class="col-md-3"
+  >
+    <header
+      class="sidebar theme-transition"
+      style="background: rgb(255, 255, 255);"
+    >
+      <div
+        class="h-100 d-flex flex-column justify-content-between pt-4"
+      >
+        <div
+          class="order-md-2"
+        >
+          <div>
+            <div
+              style="z-index: 1070;"
+            >
+              <div
+                class="form-check form-switch d-flex align-items-center"
+              >
+                <input
+                  class="form-check-input mt-0 me-2"
+                  id="switch_undefined"
+                  style="width: 4rem; height: 2rem;"
+                  type="checkbox"
+                  value="false"
+                />
+                <label
+                  class="form-check-label theme-transition lh-1"
+                  for="switch_undefined"
+                >
+                  <span
+                    class="material-icons icon lg undefined"
+                  >
+                    dark_mode
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="order-md-1"
+        >
+          <svg
+            viewBox="0 0 250 138"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <lineargradient
+                gradientTransform="rotate(-15)"
+                id="themeGradient"
+              >
+                <stop
+                  offset="0%"
+                  stop-color="gradientColor1"
+                />
+                <stop
+                  offset="40%"
+                  stop-color="gradientColor2"
+                />
+              </lineargradient>
+            </defs>
+            <text
+              class="font-title"
+              fill="url(#themeGradient)"
+              x="0"
+              y="0"
+            >
+              <tspan
+                dy="46"
+                font-size="42"
+                x="0"
+              >
+                Welcome
+              </tspan>
+              <tspan
+                dy="46"
+                font-size="42"
+                x="0"
+              >
+                to my
+              </tspan>
+              <tspan
+                dy="46"
+                font-size="42"
+                x="0"
+              >
+                Rabbit Hole.
+              </tspan>
+            </text>
+          </svg>
+          <h5
+            class="text-muted mt-5"
+          >
+            Personal Gallery of Solring.
+          </h5>
+          <div
+            class="mt-4 d-inline-block mb-3"
+          >
+            <nav
+              class="position-relative icon-socialmedia bg-theme-gradient theme-transition"
+            >
+              <ul
+                class="position-absolute top-0 left-0"
+              >
+                <li
+                  class="d-inline-block me-2"
+                >
+                  <a
+                    class="btn"
+                    href="https://github.com/solring"
+                  >
+                    <span
+                      class="visually-hidden"
+                    >
+                      github
+                    </span>
+                  </a>
+                </li>
+                <li
+                  class="d-inline-block me-2"
+                >
+                  <a
+                    class="btn"
+                    href="https://twitter.com/burntgoldfish"
+                  >
+                    <span
+                      class="visually-hidden"
+                    >
+                      twitter
+                    </span>
+                  </a>
+                </li>
+                <li
+                  class="d-inline-block me-2"
+                >
+                  <a
+                    class="btn"
+                    href="https://sunburnt-goldfish.tumblr.com"
+                  >
+                    <span
+                      class="visually-hidden"
+                    >
+                      tumblr
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div
+    class="col-md-9"
+  >
+    <div
+      class="vh-100"
+    >
+      <div
+        class="undefined theme-transition"
+        style="overflow-x: hidden; overflow-y: scroll; height: 768px;"
+      >
+        <nav
+          class="navtabs"
+          data-scroll="false"
+          data-testid="navTabs"
+        >
+          <ul
+            class="inner"
+            data-open="false"
+            role="tablist"
+          >
+            <li
+              class="d-inline-block me-3 itemWrap"
+              data-active="false"
+              role="tab"
+            >
+              <button
+                class="
+              hvr-underline-from-center
+              item
+              
+            "
+              >
+                fan-art
+              </button>
+            </li>
+            <li
+              class="d-inline-block me-3 itemWrap"
+              data-active="false"
+              role="tab"
+            >
+              <button
+                class="
+              hvr-underline-from-center
+              item
+              
+            "
+              >
+                illustration
+              </button>
+            </li>
+            <li
+              class="d-inline-block me-3 itemWrap"
+              data-active="false"
+              role="tab"
+            >
+              <button
+                class="
+              hvr-underline-from-center
+              item
+              
+            "
+              >
+                design
+              </button>
+            </li>
+          </ul>
+          <div
+            aria-expanded="false"
+            class="bg-light collapse"
+            role="tabpanel"
+          >
+            <div
+              class="container"
+            >
+              <div
+                class="d-flex flex-wrap justify-content-center py-3"
+              />
+            </div>
+          </div>
+        </nav>
+        <div
+          class=""
+          data-testid="picGrid"
+        >
+          <div
+            class="row g-3 my-3 mx-sm-3"
+          >
+            <div
+              class="col"
+            >
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col"
+            >
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col"
+            >
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col"
+            >
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="react-reveal btn d-block"
+                >
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`General tests: phone layout 1`] = `
+<div
+  class="row g-0 disable-select"
+>
+  <div
+    class="col-md-3"
+  >
+    <header
+      class="sidebar theme-transition"
+      style="background: rgb(255, 255, 255);"
+    >
+      <div
+        class="collapse show"
+      >
+        <div
+          class="h-100 d-flex flex-column justify-content-between pt-4"
+        >
+          <div
+            class="order-md-2"
+          >
+            <div>
+              <div
+                style="z-index: 1070;"
+              >
+                <div
+                  class="form-check form-switch d-flex align-items-center"
+                >
+                  <input
+                    class="form-check-input mt-0 me-2"
+                    id="switch_undefined"
+                    style="width: 4rem; height: 2rem;"
+                    type="checkbox"
+                    value="false"
+                  />
+                  <label
+                    class="form-check-label theme-transition lh-1"
+                    for="switch_undefined"
+                  >
+                    <span
+                      class="material-icons icon lg undefined"
+                    >
+                      dark_mode
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="order-md-1"
+          >
+            <svg
+              viewBox="0 0 250 138"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <lineargradient
+                  gradientTransform="rotate(-15)"
+                  id="themeGradient"
+                >
+                  <stop
+                    offset="0%"
+                    stop-color="gradientColor1"
+                  />
+                  <stop
+                    offset="40%"
+                    stop-color="gradientColor2"
+                  />
+                </lineargradient>
+              </defs>
+              <text
+                class="font-title"
+                fill="url(#themeGradient)"
+                x="0"
+                y="0"
+              >
+                <tspan
+                  dy="46"
+                  font-size="42"
+                  x="0"
+                >
+                  Welcome
+                </tspan>
+                <tspan
+                  dy="46"
+                  font-size="42"
+                  x="0"
+                >
+                  to my
+                </tspan>
+                <tspan
+                  dy="46"
+                  font-size="42"
+                  x="0"
+                >
+                  Rabbit Hole.
+                </tspan>
+              </text>
+            </svg>
+            <h5
+              class="text-muted mt-5"
+            >
+              Personal Gallery of Solring.
+            </h5>
+            <div
+              class="mt-4 d-inline-block mb-3"
+            >
+              <nav
+                class="position-relative icon-socialmedia bg-theme-gradient theme-transition"
+              >
+                <ul
+                  class="position-absolute top-0 left-0"
+                >
+                  <li
+                    class="d-inline-block me-2"
+                  >
+                    <a
+                      class="btn"
+                      href="https://github.com/solring"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        github
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    class="d-inline-block me-2"
+                  >
+                    <a
+                      class="btn"
+                      href="https://twitter.com/burntgoldfish"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        twitter
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    class="d-inline-block me-2"
+                  >
+                    <a
+                      class="btn"
+                      href="https://sunburnt-goldfish.tumblr.com"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        tumblr
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hiddenButton"
+      >
+        <span
+          class="visually-hidden"
+        >
+          toggle sidebar
+        </span>
+      </div>
+    </header>
+  </div>
+  <div
+    class="col-md-9"
+  >
+    <div
+      class="vh-100"
+    >
+      <div
+        class="undefined theme-transition"
+        style="overflow-x: hidden; overflow-y: scroll; height: 768px;"
+      >
+        <div
+          class="collapse collapse"
+          data-testid="fs-collapse"
+        >
+           
+          <div
+            class="wrapper"
+          >
+            <div>
+              <div
+                class="header bg-light"
+              >
+                <div>
+                  <span
+                    class="text-uppercase"
+                  >
+                    <span
+                      class="material-icons icon md align-middle me-2"
+                    >
+                      filter_list
+                    </span>
+                    Filter
+                  </span>
+                </div>
+                <button
+                  class="btn btn-link text-dark"
+                  type="button"
+                >
+                  <span
+                    class="material-icons icon-lg"
+                  >
+                    close
+                  </span>
+                </button>
+              </div>
+              <div
+                class="content"
+              >
+                <div
+                  class="wrapper shadow-down"
+                  data-testid="navTabs"
+                >
+                  <div
+                    class="accordion"
+                  >
+                    <div
+                      class="accordion-item"
+                    >
+                      <h2
+                        class="accordion-header"
+                      >
+                        <button
+                          aria-expanded="false"
+                          class="accordion-button collapsed"
+                          type="button"
+                        >
+                          <h6
+                            class="text-uppercase"
+                          >
+                            fan-art
+                          </h6>
+                        </button>
+                      </h2>
+                      <div
+                        class="accordion-collapse collapse"
+                      >
+                        <div
+                          class="text-center accordion-body"
+                        >
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #MOR
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #JJK
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #DVD
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #Golden Kamuy
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #HP
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #Others
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item"
+                    >
+                      <h2
+                        class="accordion-header"
+                      >
+                        <button
+                          aria-expanded="false"
+                          class="accordion-button collapsed"
+                          type="button"
+                        >
+                          <h6
+                            class="text-uppercase"
+                          >
+                            illustration
+                          </h6>
+                        </button>
+                      </h2>
+                      <div
+                        class="accordion-collapse collapse"
+                      >
+                        <div
+                          class="text-center accordion-body"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item"
+                    >
+                      <h2
+                        class="accordion-header"
+                      >
+                        <button
+                          aria-expanded="false"
+                          class="accordion-button collapsed"
+                          type="button"
+                        >
+                          <h6
+                            class="text-uppercase"
+                          >
+                            design
+                          </h6>
+                        </button>
+                      </h2>
+                      <div
+                        class="accordion-collapse collapse"
+                      >
+                        <div
+                          class="text-center accordion-body"
+                        >
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #Book cover
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #T-shirt
+                          </button>
+                          <button
+                            class="
+        hvr-underline-from-center
+        base
+        
+        my-2
+      "
+                          >
+                            #Poster
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-5"
+          data-testid="picGrid"
+        >
+          <div
+            class="row g-3 my-3 mx-sm-3"
+          >
+            <div
+              class="col"
+            >
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="react-reveal"
+                >
+                   
+                  <article
+                    class="shadow-btn card mb-3"
+                  >
+                    <img
+                      alt="Title"
+                      src="emilywang.jpg"
+                    />
+                    <div
+                      class="overlay"
+                      data-longpress="false"
+                    >
+                      <div
+                        class="p-3 text"
+                      >
+                        <h6>
+                          Title
+                        </h6>
+                        <p
+                          class="subtitle"
+                        >
+                          this is a test
+                        </p>
+                        <div
+                          class="text-wrap"
+                        >
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag1
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag2
+                          </small>
+                          <small
+                            class="me-1"
+                          >
+                            #
+                            tag3
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary btn-lg rounded-pill border-0 position-fixed end-0 top-0 me-3 mt-5 lh-1 shadow-btn"
+          style="z-index: 1010;"
+        >
+          <span
+            class="text-uppercase"
+          >
+            :
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
